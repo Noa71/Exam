@@ -1,0 +1,63 @@
+|CTAG_1671439627_151835968_9732_0
+|d ..
+|d ..
+|d ..
+|d ..
+f:
+d :
+|:
+cd/example
+composer create-project laravel/laravel example
+|d example
+php artisan serve
+|d ..
+|d ..
+|d ..
+|d ..
+|d ..
+d:
+example
+cd example
+composer create-project laravel/laravel youtubeBlog
+|d ..
+composer require astrotomic/laravel-translatable
+|hp artisan migrate
+cd ..
+|hp artisan make:migration categories
+cod .
+|hp artisan migrate
+php artisan make:migration categories
+cede 
+code .
+php artisan make:migration categories_translations
+php artisan make:migration "create category translations table"
+te\Database\Migrations\MigrationCreator.php:97
+php artisan make:migration "create posts table"
+php artisan make:migration "create posts translations table"
+php artisan make:migration "create tags table"
+php artisan make:migration "create tag translations table"
+php artisan make:migration "create post tag table"
+php artisan make:model Setting
+php artisan make:model SettingTrabslation
+php artisan make:model Poat
+php artisan make:model PostTranslation
+php artisan make:model Category
+php artisan make:model CatrgoryTranslation
+php artisan make:model Tag
+php artisan make:model TagTranslation
+php artisan make:model PostTag
+|hp artisan migrate
+|hp artisan migrate
+   SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'posts' already exists (SQL: create table `posts` (`id` int unsigned not null auto_increment primary key, `image` varchar(255) null, `category_id` int unsigned not null, `created_at` timestamp null, `updated_at` timestamp null, `deleted_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci')    at C:\xampp\htdocs\youtubeBlog\vendor\laravel\framework\src\Illuminate\Database\Connection.php:760     756▕         // If an exception occurs when attempting to run a query, we'll format the error     757▕         // message to include the bindings with SQL, which will make this exception a     758▕         // lot more helpful to the developer instead of just the database's errors.     759▕         catch (Exception $e) {   ➜ 760▕             throw new QueryException(     761▕                 $query, $this->prepareBindings($bindings), $e     762▕             );     763▕         }     764▕     }    1   C:\xampp\htdocs\youtubeBlog\vendor\laravel\framework\src\Illuminate\Database\Connection.php:545       PDOException::("SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'posts' already exists")    2   C:\xampp\htdocs\youtubeBlog\vendor\laravel\framework\src\Illuminate\Database\Connection.php:545       PDOStatement::execute()
+|php artisan migrate
+|php artisan migrate:fresh
+ php artisan migrate
+|php artisan migrate:fresh
+ php artisan migrate:frech
+ php artisan migrate:fresh
+|hp artisan migrate
+|hp artisan migrate
+php artisan migrate
+php artisan migrate:fresh
+|d youtubeBlog1
+cd youtubeBlog1
